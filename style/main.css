@@ -120,7 +120,16 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
-
+@media screen and (max-width: 576px) {
+  div.container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  div.container {
+    flex-direction: column;
+  }
+}
 
 /*  Small devices (phones, 576px and up) */
 
