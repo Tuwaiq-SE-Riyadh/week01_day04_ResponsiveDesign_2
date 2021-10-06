@@ -124,8 +124,63 @@ main h3{
 
 /*  Small devices (phones, 576px and up) */
 
+@media (max-width: 576px) {
+  
+  main .part-services{
+    width: 100%;
+  }
+
+  .introduction h1{
+    font-size: 25px;
+  }
+
+  .introduction h5{
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  header ul li {
+    float: none;
+  }
+
+  header ul{
+    float:none;
+    text-align: center;
+    padding-top: 8%;
+  }
+
+}
 
 
 
 
  /* Medium devices (tablets, 768px and up) */
+
+ @media (max-width: 768px) {
+  
+  main .part-services{
+    width: 100%;
+  }
+
+  .introduction h1{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .introduction h5{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  header ul li {
+    float: none;
+  }
+
+  header ul{
+    float:none;
+    text-align: center;
+    padding-top: 6%;
+
+  }
+
+}
