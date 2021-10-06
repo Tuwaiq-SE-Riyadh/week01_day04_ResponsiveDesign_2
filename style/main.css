@@ -118,11 +118,70 @@ main h3{
 }
 
 
+@media  (max-width: 768px) {
+  main .part-services {
+  
+    width: 100%;
+
+  }
+  .introduction h1{
+    font-size: 25px;
+    line-height: 40px;
+  }
+  header ul{
+    float:center ;
+    padding-right: 5%;
+  }
+  .introduction h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  header ul li {
+    float:none;}
+    
+    header ul{
+      float:center ;
+      padding-right: 5%;
+    }
+
+  }
+
+
+
+
+  @media  (max-width:576px) {
+    main .part-services {
+        
+        
+      width: 100%;
+  
+  
+    }
+    .introduction h1{
+      font-size: 25px;
+      line-height: 20px;
+    }
+    header ul li {
+      float:none;}
+      header ul{
+        float:center ;
+        padding-right: 5%;
+      }
+      .introduction h5{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+
+  }
+
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
 
 
 /*  Small devices (phones, 576px and up) */
+
 
 
 
