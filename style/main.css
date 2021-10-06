@@ -124,8 +124,102 @@ main h3{
 
 /*  Small devices (phones, 576px and up) */
 
+@media only screen and (max-width: 576px) {
+ 
+  .content-header, .introduction{
+    position: absolute;
+  
+  }
+  
+  header ul li {
+    padding-top: 20%;
+    position: relative;
+    left: 100px;
+    float:none;
+    height: 25px;
+  }
+  .introduction{
+    padding: 10% 15% ;
+  }
+.introduction h1{
+  padding-top: 20%;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.introduction h5{
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+}
 
 
+main .part-services{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 
+}
+
+main h3{
+  font-size: 25px;
+}
+
+.part-services p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+}
 
  /* Medium devices (tablets, 768px and up) */
+ @media only screen and (max-width: 768px) and (min-width: 576px) {
+ 
+  .content-header, .introduction{
+    position: absolute;
+  
+  }
+  
+  header ul li {
+    padding-top: 20%;
+    position: relative;
+    left: 210px;
+    float:none;
+    height: 35px;
+  }
+  .introduction{
+    padding: 10% 8% ;
+  }
+.introduction h1{
+  padding-top: 15%;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.introduction h5{
+  font-size: 14px;
+  line-height: 25px;
+}
+
+
+main .part-services{
+  float: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+}
+
+main h3{
+  font-size: 25px;
+}
+
+.part-services p{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+}
