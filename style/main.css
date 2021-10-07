@@ -120,14 +120,53 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
-@media screen and (max-width: 576px) {
+@media screen  and (max-width: 576px) {
   div.container {
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
+    padding:auto;
+
+
+  }
+
+  main{
+    display:flex;
+    flex-direction:column;
+    padding:auto;
+    width: 100%;
+    margin: auto;
+
+  }
+  main .part-services{
+    float: left;
+    width: 100%;
+   
+  
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen  and(min-width: 577px)  and (max-width: 768px)  {
   div.container {
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   padding:auto;
+
+
+  }
+  
+
+  main{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    padding:auto;
+
+  }
+  main .part-services{
+    float: left;
+    width: 100%;
+   
+  
   }
 }
 
