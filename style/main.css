@@ -72,7 +72,7 @@ header ul li a {
 
 .introduction h1{
   font-size: 45px;
-  line-height: 40px;
+    line-height: 40px;
 }
 
 .introduction h5{
@@ -123,8 +123,52 @@ main h3{
 
 
 /*  Small devices (phones, 576px and up) */
+@media screen and (max-width:576px) {
+ 
+.introduction{
+  margin-bottom: 100px;
+}
 
+.introduction h1{
+  font-size: 30px;
+  margin-top:100px;
+}
 
+.introduction h5{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+margin-left: 0;
+margin-top: 0px;
+}
+
+header ul li {
+  float:none;
+  height: 50px;
+  margin-left: 300px;
+  list-style: none;
+}
+header ul{
+  float:right;
+  padding-top: 0%;
+  padding-right: 45%;
+}
+.content-header, .introduction{
+  position: absolute;
+ 
+
+}
+.content-header{
+  padding-top:0px;
+}
+main .part-services{
+  
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+}
+}
 
 
 
