@@ -77,7 +77,7 @@ header ul li a {
 
 .introduction h5{
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 26px;
 }
 
@@ -124,8 +124,52 @@ main h3{
 
 /*  Small devices (phones, 576px and up) */
 
+@media  (max-width: 576px) {
 
+  
+}
 
 
 
  /* Medium devices (tablets, 768px and up) */
+
+@media  (max-width: 768px) {
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  main .part-services{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .introduction h1{
+    font-size: 30px;
+    line-height: 25px;
+    padding: 10px;
+  }
+  
+  .introduction h5{
+    font-size: 12px;
+    font-weight: 200px;
+    line-height: 26px;
+  }
+  .content-header {
+    display: flex;
+    flex-direction: column;
+    /* height: 50px;
+    list-style: none;
+    padding-right:50px; */
+  }
+  .content-header ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* height: 50px;
+    list-style: none;
+    padding-right:50px; */
+  }
+  
+}
