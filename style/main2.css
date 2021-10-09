@@ -31,7 +31,7 @@ header{
 
 /*content-header part*/
 .content-header{
-  padding-top: 0px;
+  padding-top: 20px;
 }
 
 .content-header h1{
@@ -120,74 +120,59 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
+@media screen  and (max-width: 576px) {
+  div.container {
+    display:flex;
+    flex-direction:column;
+    padding:auto;
 
 
-/*  Small devices (phones, 576px and up) 
-
-div.container{ 
-  flex-direction: column;}
-}*/
-
-/* mobile */
-@media screen and (max-width: 576px) {
-  
-
-  div.container{
-    display: flex;
-    flex-direction: column;
-    padding: auto;
   }
+
   main{
-    display: flex;
-    flex-direction: column;
-    padding: auto;
+    display:flex;
+    flex-direction:column;
+    padding:auto;
     width: 100%;
-  
+
   }
-  
   main .part-services{
     float: left;
     width: 100%;
-
-  }
-
- 
-
+   
   
-
-
-
-
-
+  }
 }
- /* Medium devices (tablets, 768px and up) */
 
-/* tablets */
-@media screen and (min-width: 577px) and (max-width: 768px) {
- 
-  div.container{
-    display: flex;
-    flex-direction: column;
-    padding: auto;
+@media screen  and(min-width: 577px)  and (max-width: 768px)  {
+  div.container {
+   display: flex;
+   flex-direction: column;
+   padding:auto;
+
+
   }
- 
- 
+  
+
   main{
-    display: flex;
-    flex-direction: column;
-    padding: auto;
+    display:flex;
+    flex-direction:column;
     width: 100%;
-  
+    padding:auto;
+
   }
-  
   main .part-services{
     float: left;
     width: 100%;
-
-  }
-
+   
   
- 
-  
-
   }
+}
+
+/*  Small devices (phones, 576px and up) */
+
+
+
+
+
+ /* Medium devices (tablets, 768px and up) */
