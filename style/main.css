@@ -120,10 +120,27 @@ main h3{
 
                   /*  Start here  */
 /* --------- START THE CODE HERE ------- */
+@media screen and (max-width: 768px) {
+  main {   /*  friend helped me with this one  */
+    display: grid;
+    width:max-content;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+  /*Small devices (phones, 576px and up)*/ 
 
-
-/*  Small devices (phones, 576px and up) */
-
+@media screen and (max-width: 576px) {
+  header ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
 
 
 
